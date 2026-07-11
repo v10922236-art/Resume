@@ -1,0 +1,120 @@
+body {
+  font-family: Calibri, Arial, sans-serif;
+  color: #111111;
+  background: #ffffff;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.resume-wrap {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 48px 40px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-bottom: 2px;
+}
+
+.role-line {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.contact-block {
+  margin-bottom: 4px;
+}
+.contact-line {
+  font-size: 13px;
+  color: #222;
+  margin-bottom: 3px;
+  line-height: 1.4;
+}
+.contact-line a { color: #111; text-decoration: underline; }
+
+hr.top-rule {
+  border-top: 2px solid #111;
+  margin: 12px 0 20px;
+  opacity: 1;
+}
+
+h2.section-heading {
+  font-size: 13.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-weight: 700;
+  border-bottom: 1px solid #111;
+  padding-bottom: 4px;
+  margin: 22px 0 10px;
+}
+
+p.objective-text {
+  margin-bottom: 4px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+ul.plain-list {
+  margin: 0 0 4px;
+  padding-left: 20px;
+}
+ul.plain-list li {
+  margin-bottom: 5px;
+}
+
+.row-line {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.row-line .date {
+  font-weight: 400;
+  color: #333;
+  font-size: 13.5px;
+}
+
+.sub-line {
+  font-style: italic;
+  color: #333;
+  font-size: 13.5px;
+  margin-bottom: 10px;
+}
+
+.skills-line { margin-bottom: 6px; }
+.skills-line strong {
+  display: inline-block;
+  min-width: 190px;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 15px;
+}
+.project-tag {
+  font-style: italic;
+  color: #333;
+  font-size: 13px;
+  margin-left: 8px;
+}
+
+.print-note {
+  max-width: 780px;
+  margin: 0 auto 24px;
+  padding: 14px 20px;
+  background: #f2f2f2;
+  border: 1px solid #ccc;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+
+@media print {
+  .print-note { display: none; }
+  body { font-size: 14px; }
+  .resume-wrap { padding: 0.5in 0.6in; max-width: 100%; }
+}
